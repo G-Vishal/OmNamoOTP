@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443E2E992175B09C004F4183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E2E982175B09C004F4183 /* AppDelegate.swift */; };
+		443E2E9B2175B09C004F4183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E2E9A2175B09C004F4183 /* ViewController.swift */; };
+		443E2E9E2175B09C004F4183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E2E9C2175B09C004F4183 /* Main.storyboard */; };
+		443E2EA02175B0A1004F4183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443E2E9F2175B0A1004F4183 /* Assets.xcassets */; };
+		443E2EA32175B0A1004F4183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E2EA12175B0A1004F4183 /* LaunchScreen.storyboard */; };
+		6ED51E2ADFE06E27A6EF07B3 /* Pods_OmNamoPOST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8EBF9EC1ADDC4C2F99A856 /* Pods_OmNamoPOST.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C8EBF9EC1ADDC4C2F99A856 /* Pods_OmNamoPOST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmNamoPOST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443E2E952175B09C004F4183 /* OmNamoPOST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmNamoPOST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443E2E982175B09C004F4183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		443E2E9A2175B09C004F4183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		443E2E9D2175B09C004F4183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		443E2E9F2175B0A1004F4183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		443E2EA22175B0A1004F4183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		443E2EA42175B0A1004F4183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EB2DF2115686F92897D1F5 /* Pods-OmNamoPOST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmNamoPOST.release.xcconfig"; path = "Pods/Target Support Files/Pods-OmNamoPOST/Pods-OmNamoPOST.release.xcconfig"; sourceTree = "<group>"; };
+		D71B9D454CF3E06C81F60BCA /* Pods-OmNamoPOST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmNamoPOST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OmNamoPOST/Pods-OmNamoPOST.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443E2E922175B09C004F4183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED51E2ADFE06E27A6EF07B3 /* Pods_OmNamoPOST.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443E2E8C2175B09C004F4183 = {
+			isa = PBXGroup;
+			children = (
+				443E2E972175B09C004F4183 /* OmNamoPOST */,
+				443E2E962175B09C004F4183 /* Products */,
+				B2CCBAAEA48F5AF7134F845D /* Pods */,
+				480BF43FF631B6235A55DACC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		443E2E962175B09C004F4183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443E2E952175B09C004F4183 /* OmNamoPOST.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443E2E972175B09C004F4183 /* OmNamoPOST */ = {
+			isa = PBXGroup;
+			children = (
+				443E2E982175B09C004F4183 /* AppDelegate.swift */,
+				443E2E9A2175B09C004F4183 /* ViewController.swift */,
+				443E2E9C2175B09C004F4183 /* Main.storyboard */,
+				443E2E9F2175B0A1004F4183 /* Assets.xcassets */,
+				443E2EA12175B0A1004F4183 /* LaunchScreen.storyboard */,
+				443E2EA42175B0A1004F4183 /* Info.plist */,
+			);
+			path = OmNamoPOST;
+			sourceTree = "<group>";
+		};
+		480BF43FF631B6235A55DACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C8EBF9EC1ADDC4C2F99A856 /* Pods_OmNamoPOST.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2CCBAAEA48F5AF7134F845D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D71B9D454CF3E06C81F60BCA /* Pods-OmNamoPOST.debug.xcconfig */,
+				95EB2DF2115686F92897D1F5 /* Pods-OmNamoPOST.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443E2E942175B09C004F4183 /* OmNamoPOST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443E2EA72175B0A1004F4183 /* Build configuration list for PBXNativeTarget "OmNamoPOST" */;
+			buildPhases = (
+				460F2B4C5EF7D240FACD6C64 /* [CP] Check Pods Manifest.lock */,
+				443E2E912175B09C004F4183 /* Sources */,
+				443E2E922175B09C004F4183 /* Frameworks */,
+				443E2E932175B09C004F4183 /* Resources */,
+				4245AD0A87A3BCACACD1E160 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmNamoPOST;
+			productName = OmNamoPOST;
+			productReference = 443E2E952175B09C004F4183 /* OmNamoPOST.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443E2E8D2175B09C004F4183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "iOS Developer";
+				TargetAttributes = {
+					443E2E942175B09C004F4183 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 443E2E902175B09C004F4183 /* Build configuration list for PBXProject "OmNamoPOST" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443E2E8C2175B09C004F4183;
+			productRefGroup = 443E2E962175B09C004F4183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443E2E942175B09C004F4183 /* OmNamoPOST */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443E2E932175B09C004F4183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443E2EA32175B0A1004F4183 /* LaunchScreen.storyboard in Resources */,
+				443E2EA02175B0A1004F4183 /* Assets.xcassets in Resources */,
+				443E2E9E2175B09C004F4183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4245AD0A87A3BCACACD1E160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OmNamoPOST/Pods-OmNamoPOST-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmNamoPOST/Pods-OmNamoPOST-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460F2B4C5EF7D240FACD6C64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OmNamoPOST-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		443E2E912175B09C004F4183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443E2E9B2175B09C004F4183 /* ViewController.swift in Sources */,
+				443E2E992175B09C004F4183 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		443E2E9C2175B09C004F4183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443E2E9D2175B09C004F4183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		443E2EA12175B0A1004F4183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443E2EA22175B0A1004F4183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443E2EA52175B0A1004F4183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		443E2EA62175B0A1004F4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443E2EA82175B0A1004F4183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71B9D454CF3E06C81F60BCA /* Pods-OmNamoPOST.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3R3AZJ64K;
+				INFOPLIST_FILE = OmNamoPOST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.OmNamoPOST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		443E2EA92175B0A1004F4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EB2DF2115686F92897D1F5 /* Pods-OmNamoPOST.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3R3AZJ64K;
+				INFOPLIST_FILE = OmNamoPOST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.OmNamoPOST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443E2E902175B09C004F4183 /* Build configuration list for PBXProject "OmNamoPOST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443E2EA52175B0A1004F4183 /* Debug */,
+				443E2EA62175B0A1004F4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443E2EA72175B0A1004F4183 /* Build configuration list for PBXNativeTarget "OmNamoPOST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443E2EA82175B0A1004F4183 /* Debug */,
+				443E2EA92175B0A1004F4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443E2E8D2175B09C004F4183 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_OmNamoPOST {
+  umbrella header "Pods-OmNamoPOST-umbrella.h"
+
+  export *
+  module * { export * }
+}
